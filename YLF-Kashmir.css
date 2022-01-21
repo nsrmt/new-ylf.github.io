@@ -523,10 +523,15 @@
     margin-top: 30px;
     margin-left: 9px;
     margin-right: 9px;
+    font-weight: 400;
   }
 
   .u-section-3 .u-layout-cell-2 {
     min-height: 497px;
+  }
+
+  .u-section-3 .u-image-1 {
+    transform: scale(1.1) translateX(0px) translateY(0px);
   }
 
   .u-section-3 .u-layout-cell-3 {
@@ -793,6 +798,11 @@
   .u-section-4 .u-list-1 {
     width: 340px;
     min-height: 332px;
+  }
+
+  .u-section-4 .u-repeater-1 {
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 19px;
   }
 
   .u-section-4 .u-container-layout-1 {

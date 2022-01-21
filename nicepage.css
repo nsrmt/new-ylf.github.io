@@ -34835,15 +34835,26 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 114px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 36px;
+    margin-left: auto;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: 20px;
-    margin-left: 0;
+    width: auto;
+    margin-top: -41px;
+    margin-left: 15px;
   }
 
   .u-header .u-social-icons-1 {
     width: 134px;
-    margin-left: 0;
-    margin-bottom: 21px;
+    margin-top: -27px;
+    margin-right: 15px;
+    margin-bottom: 38px;
   }
 }
 @media (max-width: 767px) {
@@ -34851,19 +34862,13 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 112px;
   }
 
-  .u-header .u-image-1 {
-    margin-top: 9px;
-    margin-left: auto;
-  }
-
   .u-header .u-menu-1 {
-    width: auto;
-    margin-top: 11px;
+    margin-top: -41px;
     margin-left: 20px;
   }
 
   .u-header .u-social-icons-1 {
-    margin: -26px 20px 9px auto;
+    margin-right: 20px;
   }
 }
 @media (max-width: 575px) {
